@@ -4,7 +4,7 @@ import Detail from "./routes/Detail";
 
 function App() {
     return (
-        <Router>
+        <Router basename="/react-for-beginners">
             <Routes>
                 <Route path="/movie/:id" element={<Detail />} />
                 <Route path="/" element={<Home />} />
